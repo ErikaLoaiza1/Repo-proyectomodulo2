@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background: #FAFAFA;
+	font-family: arial, helvetica, sans-serif;
+	font-size: 16px;
+}
+
+.contenedor {
+	margin-left: 100px;
+	max-width: 50%;
+	width: 90%;
+}
+
+.contenedor p {
+	margin-top: 20px;
+	color:grey
+}
+
+.principal {
+	background: rosybrown;
+	color: #fff;
+	padding: 50px; 
+	width: 100%;
+}
+
+.principal .formulario {
+	text-align: left;
+}
+
+.principal .formulario input[type=text] {
+	margin-bottom: 40px;
+	margin-top: 60px;
+	padding: 15px;
+	width: 100%;
+	font-size: 16px;
+	font-style:italic;
+}
+
+.principal .formulario input[type=text].error {
+	border: 3px solid #D32F2F;
+    color: red;
+}
+
+
+.principal .formulario .boton {
+	background: gray;
+	border: 1px solid whitesmoke;
+	color: #fff;
+	display: inline-block;
+	font-size: 18px;
+	padding: 15px;
+	
+}
+
+.principal .formulario .boton:hover {
+	border: 1px solid #fff;
+}
+
+
+.tareas .lista {
+	list-style: none;
+}
+
+.tareas .lista li {
+	border-bottom: 1px solid #B6B6B6;
+}
+
+.tareas .lista li a {
+	color: #212121;
+	font-size: 16px;
+	display: block;
+	padding: 20px 0;
+	text-decoration: none;
+	
+}
+
+.tareas .lista li a:hover {
+	text-decoration: line-through;
+	color: #D32F2F;
+}
